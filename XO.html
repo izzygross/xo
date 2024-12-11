@@ -1,0 +1,31 @@
+ <!DOCTYPE html>
+<html lang="he-il">
+<head>
+    <link rel="stylesheet" href="XO.css">
+    <script src="XO.js"></script>
+    <title>Izzy Tiktakto</title>
+
+</head>
+<h2 id="turn"></h2>
+<body onkeypress="izzyPressKey()">
+    <table>
+            <tr>
+                <td id="a1" onclick="izzyChangeColor('a1')"></td>
+                <td id="a2" onclick="izzyChangeColor('a2')"></td>
+                <td id="a3" onclick="izzyChangeColor('a3')"></td>
+            </tr>
+            <tr>
+                <td id="b1" onclick="izzyChangeColor('b1')"></td>
+                <td id="b2" onclick="izzyChangeColor('b2')"></td>
+                <td id="b3" onclick="izzyChangeColor('b3')"></td>
+            </tr>
+            <tr>
+                <td id="c1" onclick="izzyChangeColor('c1')"></td>
+                <td id="c2" onclick="izzyChangeColor('c2')"></td>
+                <td id="c3" onclick="izzyChangeColor('c3')"></td>
+            </tr>
+    </table>
+    
+    <h1 id="win" ></h1>
+
+</body>
